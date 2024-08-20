@@ -10,7 +10,6 @@
   },
   "dependencies": {
     "@emailjs/browser": "^4.2.0",
-    "@next/swc-win32-x64-msvc": "^14.2.5",
     "@react-three/drei": "^9.109.5",
     "@react-three/fiber": "^8.17.5",
     "@splinetool/r3f-spline": "^1.0.2",
