@@ -1,21 +1,3 @@
-/*
-Websites:
-
-- https://github.com/pmndrs/gltfjsx (GLTF JSX for 3D Models)
-- https://lucide.dev/icons/ (Lucide Icons)
-- https://github.com/anuraghazra/github-readme-stats (Github Readme Stats)
-- https://skillicons.dev (Skill Icons to show skills)
-- https://github-readme-streak-stats.herokuapp.com (Github Readme Streak Stats)
-
-:root {
-  --background: 27 27 27;
-  --foreground: 225 225 225;
-  --muted: 115 115 115;
-  --accent: 254 254 91; #FEFE5B
-}
-
-*/
-
 export const projectsData = [
   {
     id: 1,
@@ -91,31 +73,19 @@ export const projectsData = [
 
 export const BtnList = [
   { label: "Home", link: "/", icon: "home", newTab: false },
-  { label: "About", link: "/about", icon: "about", newTab: false },
-  { label: "Projects", link: "/projects", icon: "projects", newTab: false },
+  { label: "About Me", link: "/about", icon: "about", newTab: false },
   { label: "Contact", link: "/contact", icon: "contact", newTab: false },
+  { label: "Memory game", link: "/projects", icon: "projects", newTab: false },
   {
-    label: "Github",
+    label: "Dress up game",
     link: "https://www.github.com/codebucks27",
     icon: "github",
     newTab: true,
   },
   {
-    label: "LinkedIn",
+    label: "Game 3",
     link: "https://www.linkedin.com/in/codebucks",
-    icon: "linkedin",
-    newTab: true,
-  },
-  {
-    label: "X",
-    link: "https://www.x.com/code_bucks",
-    icon: "twitter",
-    newTab: true,
-  },
-  {
-    label: "Resume",
-    link: "/resume.pdf",
-    icon: "resume",
+    icon: "smile",
     newTab: true,
   },
 ];

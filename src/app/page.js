@@ -3,7 +3,7 @@ import Image from "next/image";
 import bg from "../../public/background/bg_home_3.jpg";
 import RenderModel from "@/components/RenderModel";
 import Fairy from "@/components/models/Fairyy"
-
+import Navigation from "@/components/navigation";
 // import { Canvas } from '@react-three/fiber';
 import { Canvas } from '@react-three/fiber';
 // import Navigation from "@/components/navigation";
@@ -22,23 +22,9 @@ export default function Home() {
         fill
         className="-z-50 w-full h-full object-cover object-center opacity-50"
       />
-
+<Navigation/>
       <div className="w-full h-screen">
-        {/* <Navigation /> */}
-        {/* <RenderModel> 
-         </RenderModel> */}
-        {/* <Canvas> */}
-        {/* <Canvas */}
-  {/* camera={{ position: [0, 0, 5], near: 0.1, far: 1000 }}
-> */}
   <Fairy />
-{/* </Canvas> */}
-
-          {/* <Fairy/> */}
-      {/* <ambientLight />
-      <OrbitControls />
-      <DollModel /> */}
-    {/* </Canvas> */}
       </div>
     </main>
   );
