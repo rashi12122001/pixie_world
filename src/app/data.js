@@ -75,17 +75,17 @@ export const BtnList = [
   { label: "Home", link: "/", icon: "home", newTab: false },
   { label: "About Me", link: "/about", icon: "about", newTab: false },
   { label: "Contact", link: "/contact", icon: "contact", newTab: false },
-  { label: "Memory game", link: "/projects", icon: "projects", newTab: false },
+  { label: "Memory game", link: "/projects", icon: "Gamepad2", newTab: false },
   {
     label: "Dress up game",
     link: "https://www.github.com/codebucks27",
-    icon: "github",
+    icon: "Gamepad",
     newTab: true,
   },
   {
     label: "Game 3",
     link: "https://www.linkedin.com/in/codebucks",
-    icon: "smile",
+    icon: "Dices",
     newTab: true,
   },
 ];
