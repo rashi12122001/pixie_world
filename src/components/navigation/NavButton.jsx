@@ -72,7 +72,7 @@ import {
               prefetch={false}
               scroll={false}
             >
-              <span className="relative  w-14 h-14 p-4  group-hover:pause hover:text-accent animate-spin-slow-reverse group-hover:pause group-hover:text-cyan">
+              <span className="relative  w-14 h-14 p-4 animate-spin-slow-reverse group-hover:pause hover:text-accent group-hover:text-cyan">
                 {getIcon(icon)}
 
                 <span className="peer bg-transparent absolute top-0 left-0 w-full h-full" />
