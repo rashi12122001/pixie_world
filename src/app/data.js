@@ -75,7 +75,7 @@ export const BtnList = [
   { label: "Home", link: "/", icon: "home", newTab: false },
   { label: "About Me", link: "/about", icon: "about", newTab: false },
   { label: "Contact", link: "/contact", icon: "contact", newTab: false },
-  { label: "Memory game", link: "/projects", icon: "Gamepad2", newTab: false },
+  { label: "Memory game", link: "/Memory_game", icon: "Gamepad2", newTab: false },
   {
     label: "Dress up game",
     link: "https://www.github.com/codebucks27",
