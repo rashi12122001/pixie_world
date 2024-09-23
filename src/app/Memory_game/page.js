@@ -15,7 +15,7 @@ export default function Home() {
         fill
         className="-z-50 w-full h-full object-cover object-center opacity-50"
       />
-      {/* <Card_box/> */}
+      <Card_box/>
     </main>
   );
 }
