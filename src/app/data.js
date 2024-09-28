@@ -78,15 +78,15 @@ export const BtnList = [
   { label: "Memory game", link: "/Memory_game", icon: "Gamepad2", newTab: false },
   {
     label: "Dress up game",
-    link: "https://www.github.com/rashiarora12122001",
+    link: "https://www.github.com/rashi12122001",
     icon: "Gamepad",
-    newTab: true,
+    newTab: false,
   },
   {
     label: "Game 3",
     link: "https://www.linkedin.com/in/rashiarora12/",
     icon: "Dices",
-    newTab: true,
+    newTab: false,
   },
 ];
 

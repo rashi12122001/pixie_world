@@ -6,7 +6,6 @@ import Card_box from "./Memory.jsx"
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between relative">
-      <p>Made by Rashi Arora</p>
       <Image
         priority
         sizes="100vw"
